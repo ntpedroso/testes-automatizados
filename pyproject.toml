@@ -25,3 +25,8 @@ markers = [
     "integration: testes de integração",
     "e2e: testes end-to-end",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]
